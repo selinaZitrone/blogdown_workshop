@@ -39,7 +39,7 @@ enableEmoji = true
 
 
 [params]
-    description = "Hello this is Selina's website from the e-Rum2020 blogdown workshop"
+    description = "Hello Alessio, I built a website that will update everytime I push to github :)"
     chapter = "Berlin 2020"
     customCSS = ["css/erum.css", "css/font-awesome.min.css"]
 
