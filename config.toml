@@ -1,0 +1,63 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Selinas first website"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    pre = ""
+    url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "GitHub"
+    pre = "fa-github-square"
+    url = "https://github.com/selinaZitrone"
+    weigth = 2
+[[menu.main]]
+    name = "Web"
+    pre = "fa-twitter-square"
+    url = "https://www.bcp.fu-berlin.de/biologie/arbeitsgruppen/botanik/ag_tietjen/index.html"
+    weight = 3
+[[menu.main]]
+    name = "Facebook"
+    pre = "fa-facebook-square"
+    url = "https://github.com/selinaZitrone"
+    weigth = 4
+
+[[menu.main]]
+    name = "Posts"
+    pre = "fa-bullhorn"
+    url = "/post/"
+    weigth = 4
+
+
+[params]
+    description = "Hello this is Selina's website from the e-Rum2020 blogdown workshop"
+    chapter = "Berlin 2020"
+    customCSS = ["css/erum.css", "css/font-awesome.min.css"]
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "eRum2020.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
