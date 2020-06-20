@@ -8,6 +8,7 @@ tags: []
 ---
 
 Hi this is a test. If you are reading this I managed to create my first post with blowdown.
+And if I push to GitHub will the content change automatically????
 
 ```{r}
 x <- rnorm(20)
